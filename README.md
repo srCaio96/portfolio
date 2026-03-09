@@ -87,7 +87,11 @@ https://linkedin.com/in/srCaio
 
 ---
 
+<<<<<<< HEAD
 ## 🧰 Portfolio Technologies
+=======
+<strong>🐙 GitHub:</strong> <a href="https://github.com/srCaio96"><u>github.com/srCaio</u></a>
+>>>>>>> a2b8b6a (Updating Project)
 
 - HTML5
 - CSS3
