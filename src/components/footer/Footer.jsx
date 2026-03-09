@@ -31,27 +31,17 @@ export default function Footer() {
                         
                             <p>Atualmente possuo:</p>
                             <p>🔹Conhecimentos <span className="text-decoration-underline">sólidos</span> em:</p>
-                            <p><i>Linguagens: </i><span className={`${styles.textAccentPrimary}`}>HTML, CSS, 
-                                JavaScript</span></p>
-                            <p><i>Frameworks/bibliotecas: </i><span className={`${styles.textAccentPrimary}`}>
-                                Bootstrap, React,jQuery</span></p>
-                            <p><i>Banco de dados: </i><span className={`${styles.textAccentPrimary}`}>MySQL</span></p>
-                            <p><i>Ferramentas: </i><span className={`${styles.textAccentPrimary}`}>Git
-                                </span>, <span className={`${styles.textAccentPrimary}`}>GitHub</span>, 
-                                <span className={`${styles.textAccentPrimary}`}>VS Code</span></p>
+                            <p><span className={`${styles.textAccentPrimary}`}>HTML, CSS, JavaScript, 
+                                Bootstrap, React, jQuery, MySQL, Git, GitHub, VS Code</span></p>
                             
                             <p>🔹Conhecimentos <span className="text-decoration-underline">intermediários</span> em:</p>
-                            <p><i>Linguagens: </i><span className={`${styles.textAccentPrimary}`}>AJAX, </span> 
-                                <span className={`${styles.textAccentPrimary}`}>Excel (Pacote Office)</span></p>
-                            <p><i>Idioma: </i><span className={`${styles.textAccentPrimary}`}>Inglês 
-                                (nível intermediário – B2)</span></p>
+                            <p><span className={`${styles.textAccentPrimary}`}>AJAX, Excel (Pacote Office), 
+                                Inglês (nível intermediário – B2)</span></p>
                         
                             <p>🔹Conhecimentos <span className="text-decoration-underline">básicos</span> em:</p> 
-                            <p><i>Linguagens: </i><span className={`${styles.textAccentPrimary}`}>Python, PHP</span></p>
-                            <p><i>Framework: </i><span className={`${styles.textAccentPrimary}`}>Ionic</span></p>
-                            <p><i>Ferramenta: </i><span className={`${styles.textAccentPrimary}`}>WordPress</span></p>
-                            <p><i>Idioma: </i><span className={`${styles.textAccentPrimary}`}>Espanhol (nível básico – A2)</span></p>
-                            
+                            <p><span className={`${styles.textAccentPrimary}`}>Python, PHP, Ionic, WordPress, 
+                                Espanhol (nível básico - A2)</span></p>
+
                             <p>Estou em busca da minha primeira oportunidade profissional na área de TI para 
                                 <span>colocar em prática tudo o que venho estudando</span>, continuar me 
                                 desenvolvendo e, futuramente, <strong className={`${styles.textAccentPrimary} text-decoration-underline`}>contribuir com soluções criativas e 
