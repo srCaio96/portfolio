@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "Dog Media",
+        "url": "https://srcaio.com/personal-projects/dogmedia",        
+        "gitHub": "https://github.com/srCaio96/dogmedia",
+        "description": "Website desenvolvido para exibir informações detalhadas sobre raças de cães usando dados da The Dog API. O projeto apresenta características como nome, peso, altura, expectativa de vida, origem, descrição, grupo da raça e história, com suporte para tradução para português.",
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "React"]
+    },
+    {
+        "id": "2",
+        "name": "Mario Quest",
+        "url": "https://srcaio.com/personal-projects/marioquest",
+        "gitHub": "https://github.com/srCaio96/marioquest",
+        "description": "Website criado com a inteção de apresentar todos os jogos, curiosidades e glitches da Franquia Mario.",
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery"]
+    },
+    {
+        "id": "3",
+        "name": "Mario Race",
+        "url": "https://srcaio.com/personal-projects/mariorace",
+        "gitHub": "https://github.com/srCaio96/mariorace",
+        "description": "Jogo simples criado com JavaScript puro, gerando dinamicamente elementos HTML e estilos CSS.",
+        "tools": ["HTML5", "JavaScript"]
+    }  
+]

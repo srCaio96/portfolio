@@ -1,0 +1,46 @@
+/* ============================= */
+/* THEME / TOKENS */
+/* ============================= */
+
+.theme {
+    --bg-main: #157cd6;
+}
+
+/* ============================= */
+/* BASE - STRUCTURE / LAYOUT */
+/* ============================= */
+
+.section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+  white-space: nowrap;
+  background-color: var(--bg-main);
+  margin: -50px 0;
+}
+
+.sectionList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation: moveToLeft var(--anim-duration-base) var(--ease-linear) var(--anim-interation-infinite); /* Global */
+}
+
+@keyframes moveToLeft {
+  from { 
+    transform: translateX(0); 
+  }
+  to   { 
+    transform: translateX(-100%); 
+  }
+}
+
+.section img {
+  padding-left: 50px;
+}
+
+.imageAjust {
+  padding-left: 25px;
+}

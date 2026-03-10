@@ -1,0 +1,117 @@
+/* ============================= */
+/* THEME / TOKENS */
+/* ============================= */
+
+.theme {
+	--font-primary: 'Bush Script MT', cursive;
+	--font-secondary: Arial, Helvetica, sans-serif;
+
+	--color-base: #ffffff;
+	--color-accent-primary: #87ceeb;
+	--color-accent-secondary: #000000;
+	--color-icon-primary: #157cd6;
+	--color-icon-secondary: var(--color-base);
+
+	--gradient-bg-base: linear-gradient(to bottom right, #196fdf80, #4f10e2E6);
+
+	--box-shadow-base: #157cd6 -1px 1px,
+						#1572d6 -2px 2px,
+						#1568d6 -3px 3px,
+						#155ed6 -4px 5px,
+						#1554d6 -6px 6px,
+						#1544d6 -7px 7px,
+						#154ed6 -8px 8px,
+						#1558d6 -9px 9px,
+						#1562d6 -10px 10px,
+						#156cd6 -11px 11px;
+}
+
+/* ============================= */
+/* BASE - STRUCTURE / LAYOUT */
+/* ============================= */
+
+.section {
+	position: relative;
+	overflow: hidden;
+	font-family: var(--font-primary);
+	min-height: 800px;
+	margin-left: 0;
+}
+
+.section::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background-image: var(--gradient-bg-base), url('../../assets/images/background-presentation.webp');
+	animation: var(--anim-name-move-up) var(--anim-duration-base) var(--ease-linear) 
+    	var(--anim-interation-infinite); /* Global */
+	z-index: -1;
+}
+
+.imagePage img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+	margin-top: 100px;
+	border: 3px solid transparent;
+	border-radius: 50%;
+	box-shadow: var(--box-shadow-base)	
+}
+
+.iconPrimary {
+	color: var(--color-icon-primary);
+	transition: transform var(--duration-fast) var(--ease-smooth); /* Global */
+}
+
+.iconPrimary:hover{
+	cursor: pointer;
+	transform: var(--scale-base); /* Global */
+}
+
+.iconSecondary {
+	color: var(--color-icon-secondary);
+}
+
+/* ============================= */
+/* CONTENT - TEXT / INFO */
+/* ============================= */
+
+.sectionContent {
+	position: relative;
+	margin-top: 110px;
+	color: var(--color-base);
+	padding-right: 10%;
+}
+
+.sectionList {
+	position: relative;
+	margin-top: 100px;
+	width: 30%;
+}
+
+.textAccentPrimary {color: var(--color-accent-primary);}
+
+.textAccentSecondary {
+	position: relative;
+	font-family: var(--font-secondary);
+	color: var(--color-accent-secondary);
+	left: 20%;
+	bottom: 5px;
+}
+
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 470px) {
+	.iconPrimary {
+		padding-bottom: 10px;
+	}
+}
+
+@media (max-width: 510px) {
+	.textAccentSecondary {
+		left: 0;
+	}
+}

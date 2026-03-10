@@ -1,0 +1,173 @@
+[
+    {
+        "id": 1,
+        "name": "Projeto Anna Bella",
+        "url": "https://srcaio.com/academic-projects/projeto-anna-bella",
+        "gitHub": "https://github.com/srCaio96/anna-bella",
+        "description": "Website baseando-se em uma página web pessoal sobre uma modelo, desenvolvido junto com o curso 'Desenvolvimento Web Completo - 20 cursos + 20 projetos' na plataforma Udemy.",
+        "tools": ["HTML5", "CSS3"]
+    },
+    {
+        "id": 2,
+        "name": "Projeto Bradesco",
+        "url": "https://srcaio.com/academic-projects/projeto-bradesco",
+        "gitHub": "https://github.com/srCaio96/bradesco",
+        "description": "Website feito junto com um curso da Estituição Bradesco, criando páginas com conteúdos referente a tal.",
+        "tools": ["HTML5", "CSS3"]
+    },
+    {
+        "id": 3,
+        "name": "Projeto Finans",
+        "url": "https://srcaio.com/academic-projects/projeto-finans",
+        "gitHub": "https://github.com/srCaio96/finans",
+        "description": "Website feito junto com um layout pensado em um site sobre finanças, desenvolvido junto com o curso 'Desenvolvimento Web Completo - 20 cursos + 20 projetos' na plataforma Udemy.",
+        "tools": ["HTML5", "CSS3", "Bootstrap"]
+    },
+    {
+        "id": 4,
+        "name": "Spotify Clone",
+        "url": "https://srcaio.com/academic-projects/spotify-clone",
+        "gitHub": "https://github.com/srCaio96/spotify",
+        "description": "Website feito com o intuito de cirar um 'clone' da plataforma Spotify, desenvolvido junto com o curso 'Desenvolvimento Web Completo - 20 cursos + 20 projetos' na plataforma Udemy.",
+        "tools": ["HTML5", "CSS3", "Bootstrap"]
+    },
+    {
+        "id": 5,
+        "name": "Projeto Google Glass",
+        "url": "https://srcaio.com/academic-projects/projeto-google-glass",
+        "gitHub": "https://github.com/srCaio96/googleglass",
+        "description": "Website feito sobre um acessório de um óculos chamado 'Google Glass', apresentado suas utilizadas, desenvolvido junto com o curso 'Curso em Video' do professor Gustavo Guanabara.",
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript"]
+    },
+    {
+        "id": 6,
+        "name": "App Game Mata Mosquito",
+        "url": "https://srcaio.com/academic-projects/app-game-mata-mosquito",
+        "gitHub": "https://github.com/srCaio96/jogo-mosquito",
+        "description": "Um jogo para desafiar sua agilidade em precisar matar todos mosquitos que aparecer na tela até o tempo acabar.",
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript"]
+    },
+    {
+        "id": 7,
+        "name": "App Orcamento Pessoal",
+        "url": "https://srcaio.com/academic-projects/app-orcamento-pessoal",
+        "gitHub": "https://github.com/srCaio96/app-orcamento-pessoal",
+        "description": "Aplicação web criada para controle pessoal de finanças, desenvolvida junto com o curso 'Desenvolvimento Web Completo - 20 cursos + 20 projetos' na plataforma Udemy.",
+        "tools": ["HTML5", "Bootstrap", "JavaScript"]
+    },
+    {
+        "id": 8,
+        "name": "App Calculadora",
+        "url": "https://srcaio.com/academic-projects/app-calculadora",
+        "gitHub": "https://github.com/srCaio96/calculadora",
+        "description": "Aplicação web criada com JavaScript puro baseado em uma calculadora, desenvolvida junto com o curso 'Desenvolvimento Web Completo - 20 cursos + 20 projetos' na plataforma Udemy.",
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript"]
+    },
+    {
+        "id": 9,
+        "name": "App Send Mail",
+        "url": "https://srcaio.com/academic-projects/app-send-mail",
+        "gitHub": "https://github.com/srCaio96/app-send-email",
+        "description": "Aplicação web criada para criação e envio de e-mails, desenvolvida junto com o curso 'Desenvolvimento Web Completo - 20 cursos + 20 projetos' na plataforma Udemy.",
+        "tools": ["HTML5", "Bootstrap", "PHP"]
+    },
+    {
+        "id": 10,
+        "name": "App Help Desk",
+        "url": "https://srcaio.com/academic-projects/app-help-desk",
+        "gitHub": "https://github.com/srCaio96/app-help-desk",
+        "description": "Aplicação web criada e baseada para abertura e acompanhamento de suportes técnicos, desenvolvida junto com o curso 'Desenvolvimento Web Completo - 20 cursos + 20 projetos' na plataforma Udemy.",
+        "tools": ["HTML5", "CSS3", "Bootstrap", "PHP"]
+    },
+    {
+        "id": 11,
+        "name": "App Lista Tarefas",
+        "url": "https://srcaio.com/academic-projects/app-lista-tarefas",
+        "gitHub": "https://github.com/srCaio96/app-lista-tarefas",
+        "description": "Aplicação web criada para adicionar, alterar, deletar, visualizar e concluir tarefas. O app foi desenvolvido junto com o curso 'Desenvolvimento Web Completo - 20 cursos + 20 projetos' na plataforma Udemy.",
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "PHP", "MySQL"]
+    },
+    {
+        "id": 12,
+        "name": "App Pesquisa Endereço",
+        "url": "https://srcaio.com/academic-projects/app-pesquisa-endereco",
+        "gitHub": "https://github.com/srCaio96/app-pesquisa-endereco",
+        "description": "Aplicação web criada para pesquisar endereços via CEP, realizando requisições HTTP via XMLHttpRequest para API's, desenvolvida junto com o curso 'Desenvolvimento Web Completo - 20 cursos + 20 projetos' na plataforma Udemy.",
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "AJAX"]
+    },
+    {
+        "id": 13,
+        "name": "App Dashboard",
+        "url": "https://srcaio.com/academic-projects/app-dashboard",
+        "gitHub": "https://github.com/srCaio96/app-dashboard",
+        "description": "Aplicação web criada e baseada em um dashboard integrando front-end, back-end e banco de dados, desenvolvida junto com o curso 'Desenvolvimento Web Completo - 20 cursos + 20 projetos' na plataforma Udemy.",
+        "tools": ["HTML5", "CSS3", "Bootstrap", "jQuery", "PHP", "MySQL"]
+    },
+    {
+        "id": 14,
+        "name": "Flappy Bird",
+        "url": "https://srcaio.com/academic-projects/flappy-bird",
+        "gitHub": "https://github.com/srCaio96/flappy-bird",
+        "description": "Um jogo desktop pouplar criado para desafiar sua agilidade em desviar dos obstáculos que vem pela frente. O jogo foi desenvolvido junto com o curso 'Curso Web Moderno Completo com JavaScript + Projetos' da Cod3r na plataforma Udemy.",
+        "tools": ["HTML5", "CSS3", "JavaScript"]
+    },
+    {
+        "id": 15,
+        "name": "App Galery",
+        "url": "https://srcaio.com/academic-projects/app-galery",
+        "gitHub": "https://github.com/srCaio96/App-galery",
+        "description": "Aplicação web criada e baseada uma galeria de fotos de forma assíncrona. O site foi desenvolvido junto com o curso 'Curso Web Moderno Completo com JavaScript + Projetos' da Cod3r na plataforma Udemy.",
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery"]
+    },
+    {
+        "id": 16,
+        "name": "App Calculator",
+        "url": "https://srcaio.com/academic-projects/app-calculator",
+        "gitHub": "https://github.com/srCaio96/app-calculator",
+        "description": "Aplicação web criada e baseada em uma calculadora do MacOs utilizando React. O site foi desenvolvido junto com o curso 'Curso Web Moderno Completo com JavaScript + Projetos' da Cod3r na plataforma Udemy.",
+        "tools": ["HTML5", "CSS3", "React"]
+    },
+    {
+        "id": 17,
+        "name": "App Cadastro Usuário",
+        "url": "https://srcaio.com/academic-projects/app-cadastro-usuario",
+        "gitHub": "https://github.com/srCaio96/app-cadastro-usuario / https://github.com/srCaio96/app-cadastro-usuario-backend",
+        "description": "Aplicação web utilizando React no Front-end, JavaScript no Back-end, e JSON-Server para simular um Banco de Dados. O site foi desenvolvido junto com o curso da Cod3r na plataforma Udemy.",
+        "tools": ["HTML5", "CSS3", "React"]
+    },
+    {
+        "id": 18,
+        "name": "10 Minutos Exericicios",
+        "url": "https://srcaio.com/academic-projects/10minutosexericicios",
+        "description": "Projeto criado via Wordpress pensado em um blog sobre exercicios/saúde, desenvolvida junto com o curso 'Crie sites profissionais com Wordpress - 6 Projetos' na plataforma Udemy.",
+        "tools": ["WordPress"]
+    },
+    {
+        "id": 19,
+        "name": "Finans",
+        "url": "https://srcaio.com/academic-projects/finans",
+        "description": "Projeto de finanças criado via Wordpress,desenvolvida junto com o curso 'Crie sites profissionais com Wordpress - 6 Projetos' na plataforma Udemy.",
+        "tools": ["WordPress"]
+    },
+    {
+        "id": 20,
+        "name": "Notícias Cidade",
+        "url": "https://srcaio.com/academic-projects/noticiascidade",
+        "description": "Projeto criado via Wordpress pensado em um blog sobre portal de notícias, desenvolvida junto com o curso 'Crie sites profissionais com Wordpress - 6 Projetos' na plataforma Udemy.",
+        "tools": ["WordPress"]
+    },
+    {
+        "id": 21,
+        "name": "Parir Bistro",
+        "url": "https://srcaio.com/academic-projects/parirbistro",
+        "description": "Projeto criado via Wordpress pensado em um blog sobre restaurante, desenvolvida junto com o curso 'Crie sites profissionais com Wordpress - 6 Projetos' na plataforma Udemy.",
+        "tools": ["WordPress"]
+    },
+    {
+        "id": 22,
+        "name": "Sampa",
+        "url": "https://srcaio.com/academic-projects/sampa",
+        "description": "Projeto criado via Wordpress pensado em uma loja virtual, desenvolvida junto com o curso 'Crie sites profissionais com Wordpress - 6 Projetos' na plataforma Udemy.",
+        "tools": ["WordPress"]
+    }
+]

@@ -1,48 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
-		
-		<title>CaiosribeiroJP</title>
-		
-		<link rel="icon" href="src/assets/images/portfolio-logo.png" style="border: 1px solid transparent; border-radius: 50%;">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Foldit:wght@100..900&family=Indie+Flower&family=Permanent+Marker&family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="index.css">
-	</head>
-	
-	<body>	
-		<header id="header-container"></header>
+  <head>
+    <meta charset="UTF-8" />
 
-		<section id="presentation-container"></section>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portifólio sobre Caio Ribeiro"/>
+    <meta name="theme-color" content="#ff0000" />
 
-		<div id="languages" class="container-fluid"></div>
-				
-		<section id="projectsBody" class="container-fluid">
-			<h1 id="projectsName" class="pt-5 mb-5">Projetos</h1>
+    <meta property="og:title" content="Portifólio" />
+    <meta property="og:description" content="Portifólio sobre Caio Ribeiro" />
+    <meta property="og:image" content="/logo.png" />
+    <meta property="og:type" content="website" />
 
-			<article id="courses"></article>				
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=1" />
+    <link rel="icon" href="/favicon-light.svg" media="(prefers-color-scheme: light)">
+    <link rel="icon" href="/favicon-dark.svg" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" href="favicon.ico" />
 
-			<article id="projects" class="container-fluid"></article>
-		</section>
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-		<div id="devices" class="container-fluid"></div>
-		
-		<section id="me" class="container-fluid row">
-			<article class="col-6" id="meImage">
-				<img src="src/assets/images/caiosribeiroJP.webp" width="500px" height="500px" alt="image-caiosribeiroJP">
-			</article>
+    <link rel="manifest" href="/manifest.webmanifest"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-			<article class="col-6" id="meDesc"></article>
-
-			<footer id="contact" class="container"></footer>
-		</section>
-		
-		<script src="https://kit.fontawesome.com/047671d39d.js" crossorigin="anonymous"></script>
-		<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>		
-		<script type="module" src="index.js"></script>
-	</body>
+    <title>portifolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="src/index.jsx"></script>
+  </body>
 </html>

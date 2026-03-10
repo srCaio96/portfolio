@@ -1,77 +1,108 @@
-<h1>💼 Portfólio — Caio Ribeiro</h1>
+# 💼 Portfolio — Caio Ribeiro
 
-Bem-vindo ao meu portfólio!
-Sou <strong>Caio Ribeiro</strong>, formado em <strong>Análise e Desenvolvimento de Sistemas</strong>, e este é o espaço onde apresento meus <strong>projetos, aprendizados e evolução como desenvolvedor web.</strong>
+🇺🇸 English | 🇧🇷 [Português](README-pt-BR.md)
 
-<h3>👨‍💻 Sobre Mim</h3>
+Welcome to my portfolio!
 
-Sou apaixonado por tecnologia e desenvolvimento web.
-Nos meus tempos livres, continuo me especializando por meio de cursos e projetos práticos, sempre buscando <strong>evoluir meus conhecimentos</strong> e <strong>me manter atualizado</strong> com as principais tecnologias do mercado.
+I'm **Caio Ribeiro**, a graduate in **Systems Analysis and Development**.  
+Here I present my **projects, studies, and evolution as a web developer**.
 
-Atualmente possuo:
+---
 
-<h3>🔹 Conhecimentos sólidos em</h3>
+![HTML](https://img.shields.io/badge/HTML5-ff6d00?logo=html5&logoColor=ff0000) 
+![CSS](https://img.shields.io/badge/CSS3-009dff?logo=css&logoColor=0059ff) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?logo=react)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap)
 
-<ul>
-<li><strong>HTML</strong>, <strong>CSS</strong>, <strong>Sass</strong>, <strong>JavaScript</strong>, <strong>Node.js</strong></li>
+---
 
-<li><strong>Frameworks/Bibliotecas:</strong> Bootstrap, jQuery</li>
+## 👨‍💻 About Me
 
-<li><strong>Banco de dados:</strong> MySQL</li>
-</ul>
+I'm passionate about **technology and web development**.
 
-<h3>🔹 Conhecimentos intermediários em</h3>
+In my free time I continue improving my skills through **courses and practical projects**, always looking to stay updated with modern technologies.
 
-<uL>
-<li><strong>AJAX</strong>, <strong>Excel (Pacote Office)</strong></li>
+---
 
-<li><strong>Idioma:</strong> Inglês — nível intermediário (B2)</li>
-</ul>
+## 🛠️ Technologies
 
-<h3>🔹 Conhecimentos básicos em</h3>
+### 🔹 Solid knowledge
 
-<uL>
-<li><strong>Python</strong>, <strong>PHP</strong></li>
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- React
+- jQuery
+- MySQL
 
-<li><strong>Frameworks</strong>: React, Ionic</li>
+### 🔹 Intermediate knowledge
 
-<li><strong>Idioma:</strong> Espanhol — nível básico (A2)</li>
-</ul>
+- AJAX
+- Excel (Microsoft Office)
+- English — Intermediate (B2)
 
-<h3>🚀 Objetivo Profissional</h3>
+### 🔹 Basic knowledge
 
-Busco minha primeira <strong>oportunidade na área de TI</strong> para colocar em prática tudo o que venho aprendendo.
-Meu foco é continuar me desenvolvendo como profissional e contribuir com <strong>soluções criativas e eficientes</strong> para o mercado de tecnologia.
+- Python
+- PHP
+- Ionic
+- WordPress
+- Spanish — Basic (A2)
 
-<h3>🧰 Tecnologias do Portfólio</h3>
+---
 
-<uL>
-<li>HTML5</li>
+## 🚀 Professional Goal
 
-<li>CSS3</li>
+I am seeking my **first opportunity in the IT field**, where I can apply my knowledge and continue growing professionally.
 
-<li>Bootstrap</li>
+My goal is to contribute with **creative and efficient solutions** in the technology area.
 
-<li>JavaScript</li>
+---
 
-<li>jQuery</li>
+## 🌐 Live Portfolio
 
-💡 O portfólio foi desenvolvido de forma responsiva, priorizando performance, clareza e boa experiência de navegação.
-</ul>
+🔗 **Website:**  
+https://srcaio.com
 
-<h3>🌐 Contato</h3>
+---
 
-<strong>📧 E-mail:</strong> <u>caiosribeiro@bol.com.br</u>
+## 📄 Resume
 
-<strong>🐙 GitHub:</strong> <a href="https://github.com/CaiosribeiroJP"><u>github.com/CaiosribeiroJP</u></a>
+📥 [View Resume](docs/resume.pdf)
 
-<strong>💼 LinkedIn:</strong> <a href="https:linkedin.com/in/caiosribeirojp//"><u>linkedin.com/in/caiosribeirojp</u></a>
+---
 
-<strong>📄 Currículo:</strong> <a href="./public/assets/docs/CaioSantosRibeiro_Curriculo.pdf" target="_blank"><u>Visualizar PDF</u></a>
+## 📫 Contact
 
-<h3>🏷️ Licença</h3>
+📧 Email:  
+caiosribeiro@bol.com.br  
 
-© 2025 <strong>CaiosribeiroJP</strong>
-Este portfólio foi desenvolvido para fins profissionais e de apresentação.
+🐙 GitHub:  
+https://github.com/srCaio96  
 
-Sinta-se à vontade para se inspirar, mas mantenha os créditos ao autor.
+💼 LinkedIn:  
+https://linkedin.com/in/srCaio  
+
+---
+
+## 🧰 Portfolio Technologies
+
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- React
+
+💡 The portfolio was developed **responsively**, prioritizing **performance, clarity and user experience**.
+
+---
+
+## 📜 License
+
+© 2026 **Caio Ribeiro**
+
+This portfolio was developed for **professional and presentation purposes**.
+
+Feel free to be inspired, but please keep the credits to the author.

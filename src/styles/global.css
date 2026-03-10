@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&ampfamily=Stardos+Stencil:wght@400;700&display=swap");
+
+/* ============================= */
+/* BASE - STRUCTURE / LAYOUT */
+/* ============================= */
+
+html, body{ 
+  user-select: none; 
+  min-height: 100%;
+  background-color: var(--color-bg-default);
+  inset: 0;
+	z-index: -1;
+}
+
+.tool-html5 {color: var(--color-text-html)}
+
+.tool-css3 {color: var(--color-text-css)}
+
+.tool-bootstrap {color: var(--color-text-bs)}
+
+.tool-javascript  {color: var(--color-text-js)}
+
+.tool-php {color: var(--color-text-php)}
+
+.tool-mysql {color: var(--color-text-mysql)}
+
+.tool-ajax {color: var(--color-text-ajax)}
+
+.tool-jquery {color: var(--color-text-jquery)}
+
+.tool-wordpress {color: var(--color-text-wp)}
+
+.tool-react {color: var(--color-text-react)}
+
+
+
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media only screen and (max-width: 990px) {
+  .col-6 { 
+    width: 100% !important; 
+  } 
+}

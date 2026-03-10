@@ -1,0 +1,67 @@
+/* ============================= */
+/* THEME / TOKENS */
+/* ============================= */
+
+.theme {
+    --color-bg-base: #000000;
+    --color-bg-base-hover: #00000067;
+
+    --bg-button: #0f0f0ff5;  
+}
+
+/* ============================= */
+/* BASE - STRUCTURE / LAYOUT */
+/* ============================= */
+
+.section {
+    width: 10%;
+    margin-left: 20%;
+}
+
+/* ============================= */
+/* CONTROLS - INTERATIONS */
+/* ============================= */
+
+.navList {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height var(--duration-base) var(--ease-standard);
+}
+
+.navList li {
+    font-size: 1.25rem; 
+    background: var(--color-bg-base);
+    opacity: 0;
+    transform: translateY(-8px);
+    transition: opacity var(--duration-base) var(--ease-standard), 
+                transform var(--duration-base) var(--ease-standard);
+}
+
+.navList.open {
+    max-height: 550px;
+    opacity: 1;
+}
+
+.open li {
+    font-size: 1.25rem; 
+    background: var(--color-bg-base);
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.navList li:hover {
+    background-color: var(--color-bg-base-hover); 
+    cursor: pointer;
+}
+
+.dropdownControls {
+    position: relative;
+    margin-left: 25%;
+    background-color: var(--color-button-base); /* Global */
+}
+
+.dropdownControls:hover {
+    background-color: var(--color-button-hover); /* Global */
+    transition: background-color var(--duration-fast) var(ease-smooth); /* Global */
+}

@@ -1,0 +1,37 @@
+/* ============================= */
+/* THEME / TOKENS */
+/* ============================= */
+
+:root {
+    --color-bg-base: #4f10e2E6;
+    --color-bg-default: #0000;
+    --color-button-base: #157cd6;
+    --color-button-hover: #7244dfB3;
+    --color-text-html: #ff4400;
+    --color-text-css: #1167e9;
+    --color-text-bs: #800080;
+    --color-text-js: #ffff00;
+    --color-text-php: #9163cc;
+    --color-text-mysql: #ffffff;
+    --color-text-ajax: #ff0000;
+    --color-text-jquery: #ff6e00;
+    --color-text-wp: #6cabff;
+    --color-text-react: #0094ff;
+
+    --duration-fast: .3s;
+    --duration-base: .6s;
+    --duration-slow: .9s;
+
+    --ease-smooth: ease-in-out;
+    --ease-standard: ease;
+    --ease-linear: linear;
+
+    --scale-base: scale(1.4);
+
+    --anim-duration-fast: 10s;
+    --anim-duration-base: 40s;
+    --anim-duration-slow: 60s;
+    --anim-interation-infinite: infinite;
+    --anim-name-move-up: moveToUp;
+    --anim-name-smooth-opacity: smoothOpacity;
+}
