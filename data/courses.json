@@ -134,40 +134,5 @@
         "gitHub": "https://github.com/srCaio96/app-cadastro-usuario / https://github.com/srCaio96/app-cadastro-usuario-backend",
         "description": "Aplicação web utilizando React no Front-end, JavaScript no Back-end, e JSON-Server para simular um Banco de Dados. O site foi desenvolvido junto com o curso da Cod3r na plataforma Udemy.",
         "tools": ["HTML5", "CSS3", "React"]
-    },
-    {
-        "id": 18,
-        "name": "10 Minutos Exericicios",
-        "url": "https://srcaio.com/academic-projects/10minutosexericicios",
-        "description": "Projeto criado via Wordpress pensado em um blog sobre exercicios/saúde, desenvolvida junto com o curso 'Crie sites profissionais com Wordpress - 6 Projetos' na plataforma Udemy.",
-        "tools": ["WordPress"]
-    },
-    {
-        "id": 19,
-        "name": "Finans",
-        "url": "https://srcaio.com/academic-projects/finans",
-        "description": "Projeto de finanças criado via Wordpress,desenvolvida junto com o curso 'Crie sites profissionais com Wordpress - 6 Projetos' na plataforma Udemy.",
-        "tools": ["WordPress"]
-    },
-    {
-        "id": 20,
-        "name": "Notícias Cidade",
-        "url": "https://srcaio.com/academic-projects/noticiascidade",
-        "description": "Projeto criado via Wordpress pensado em um blog sobre portal de notícias, desenvolvida junto com o curso 'Crie sites profissionais com Wordpress - 6 Projetos' na plataforma Udemy.",
-        "tools": ["WordPress"]
-    },
-    {
-        "id": 21,
-        "name": "Parir Bistro",
-        "url": "https://srcaio.com/academic-projects/parirbistro",
-        "description": "Projeto criado via Wordpress pensado em um blog sobre restaurante, desenvolvida junto com o curso 'Crie sites profissionais com Wordpress - 6 Projetos' na plataforma Udemy.",
-        "tools": ["WordPress"]
-    },
-    {
-        "id": 22,
-        "name": "Sampa",
-        "url": "https://srcaio.com/academic-projects/sampa",
-        "description": "Projeto criado via Wordpress pensado em uma loja virtual, desenvolvida junto com o curso 'Crie sites profissionais com Wordpress - 6 Projetos' na plataforma Udemy.",
-        "tools": ["WordPress"]
     }
 ]
