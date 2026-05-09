@@ -24,13 +24,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	animation: moveToRight var(--anim-duration-base) var(--ease-linear) var(--anim-interation-infinite); /* Global */
+	animation: var(--anim-name-move-right) var(--anim-duration-base) var(--ease-linear) var(--anim-interation-infinite); /* Global */
 }
 
-@keyframes moveToRight {
-	from {
-		transform: translate(-100%);
-	} to {
-		transform: translate(0);
-	}
-}

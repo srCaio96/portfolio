@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "name": "Cadastro de Usuário — CRUD com React",
+        "url": "https://srcaio.com/others-projects/app-cadastro-usuario",
+        "gitHub": "https://github.com/srCaio96/app-cadastro-usuario",
+        "description": "Sistema de cadastro utilizando React e API simulada.",
+        "highlight": ["Integração com JSON Server", "Manipulação de dados", "Estrutura de aplicação React"],
+        "tools": ["HTML5", "CSS3", "React"],
+        "img": "/images/image-cadastro-de-usuario.webp"
+    },
+    {
+        "id": "2",
+        "name": "Calculadora (React) — Aplicação SPA",
+        "url": "https://srcaio.com/others-projects/app-calculadora-react",
+        "gitHub": "https://github.com/srCaio96/app-calculadora-react",
+        "description": "Calculadora baseada no MacOS utilizando React.",
+        "highlight": ["Componentização", "Gerenciamento de estado", "Interface interativa"],
+        "tools": ["HTML5", "CSS3", "React"],
+        "img": "/images/image-calculadora-react.webp"
+    },
+    {
+        "id": "3",
+        "name": "Pesquisa de Endereço — API Integration",
+        "url": "https://srcaio.com/others-projects/app-pesquisa-endereco",
+        "gitHub": "https://github.com/srCaio96/app-pesquisa-endereco",
+        "description": "Consulta de endereços via CEP com requisições assíncronas.",
+        "highlight": ["Consumo de API externa", "Uso de AJAX", "Atualização dinâmica de dados"],
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "AJAX"],
+        "img": "/images/image-pesquisa-de-endereco.webp"
+    },
+    {
+        "id": "4",
+        "name": "Help Desk — Sistema de Suporte",
+        "url": "https://srcaio.com/others-projects/app-help-desk",
+        "gitHub": "https://github.com/srCaio96/app-help-desk",
+        "description": "Sistema para abertura e acompanhamento de chamados técnicos.",
+        "highlight": ["CRUD de chamados", "Organização de fluxo de suporte", "Integração com backend PHP"],
+        "tools": ["HTML5", "CSS3", "Bootstrap", "PHP"],
+        "img": "/images/image-help-desk.webp"
+    },
+    {
+        "id": "5",
+        "name": "Orçamento Pessoal — Controle Financeiro",
+        "url": "https://srcaio.com/others-projects/app-orcamento-pessoal",
+        "gitHub": "https://github.com/srCaio96/app-orcamento-pessoal",
+        "description": "Aplicação para registro e gerenciamento de despesas.",
+        "highlight": ["Armazenamento de dados", "Interface funcional", "Manipulação de formulários"],
+        "tools": ["HTML5", "Bootstrap", "JavaScript"],
+        "img": "/images/image-orcamento-pessoal.webp"
+    },
+    {
+        "id": "6",
+        "name": "Gallery — Galeria Assíncrona",
+        "url": "https://srcaio.com/others-projects/app-gallery",
+        "gitHub": "https://github.com/srCaio96/App-gallery",
+        "description": "Galeria de imagens com carregamento dinâmico.",
+        "highlight": ["Renderização dinâmica", "Uso de jQuery", "Estrutura de exibição"],
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery"],
+        "img": "/images/image-gallery.webp"
+    }
+]

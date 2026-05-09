@@ -1,64 +1,75 @@
 import React from "react";
 import styles from './Footer.module.css'
-import srCaio from '../../assets/images/image-srCaio.webp'
+import imgFooter from '../../assets/images/image-pc.webp';
 import { faFilePdf, faEnvelope, faArrowTurnDown } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import useEmailClick from "../../hooks/useEmailClick";
+import { motion } from "framer-motion";
 
 
 export default function Footer() {
     const emailClick = useEmailClick;
+    const footerVariant = {
+        hidden: {opacity: 0, y: 30},
+        show: {
+            opacity: 1,
+            y: 0,
+            transition: {duration: .5}
+        }
+    }
 
     return (
-            <footer id="aboutMe" className={`${styles.section} ${styles.theme} `}>
-                <section className="container-fluid d-flex flex-row justify-content-around flex-wrap">
-                    <article className={`col-6 ${styles.imagePage}`}>
-                        <img src={srCaio} width="438" height="554" loading="lazy" alt="image-caiosribeiroJP" />
+            <footer className={`${styles.section} ${styles.theme} `}>
+                <motion.section className="container-fluid d-flex flex-row justify-content-around flex-wrap"
+                    variants={footerVariant}
+                    initial='hidden'
+                    whileInView='show'
+                    viewport={{once: true, amount: .2}}>
+                    <article className={`col-6 ${styles.pageImg} d-flex align-items-center`}>
+                        <img src={imgFooter} width="438" height="554" loading="lazy" alt="image-pc" />
                     </article>
 
-                    <article className={`col-6 ${styles.sectionContent}`}>
+                    <article  className={`col-6 ${styles.sectionText}`}>
                         <h2 className="text-decoration-underline d-flex justify-content-center py-3">Sobre Mim</h2>
 
-                        <div>
-                            <p>Sou formado em <strong className={`${styles.textAccentPrimary} 
-                                text-decoration-underline`}>Análise e Desenvolvimento de Sistemas</strong> e, nos 
-                                meus tempos livres, continuo me especializando por meio de cursos focados 
-                                em <strong className={`${styles.textAccentPrimary} text-decoration-underline`}>  
-                                desenvolvimento web</strong>, sempre buscando evoluir meus 
-                                conhecimentos e me manter atualizado com as principais tecnologias do 
-                                mercado.</p>
-                        
-                            <p>Atualmente possuo:</p>
-                            <p>🔹Conhecimentos <span className="text-decoration-underline">sólidos</span> em:</p>
-                            <p><span className={`${styles.textAccentPrimary}`}>HTML, CSS, JavaScript, 
-                                Bootstrap, React, jQuery, MySQL, Git, GitHub, VS Code</span></p>
-                            
-                            <p>🔹Conhecimentos <span className="text-decoration-underline">intermediários</span> em:</p>
-                            <p><span className={`${styles.textAccentPrimary}`}>AJAX, Excel (Pacote Office), 
-                                Inglês (nível intermediário – B2)</span></p>
-                        
-                            <p>🔹Conhecimentos <span className="text-decoration-underline">básicos</span> em:</p> 
-                            <p><span className={`${styles.textAccentPrimary}`}>Python, PHP, Ionic, WordPress, 
-                                Espanhol (nível básico - A2)</span></p>
+                        <div >
+                            <p>Desenvolvedor<strong className={`${styles['sectionText--primary']} 
+                                `}> Front-End</strong> com foco em <strong className={`${styles['sectionText--primary']} 
+                                `}>React</strong>.</p> 
 
-                            <p>Estou em busca da minha primeira oportunidade profissional na área de TI para 
-                                <span>colocar em prática tudo o que venho estudando</span>, continuar me 
-                                desenvolvendo e, futuramente, <strong className={`${styles.textAccentPrimary} text-decoration-underline`}>contribuir com soluções criativas e 
-                                eficientes para o mercado de tecnologia.</strong></p>
+                            <p> Crio <strong className={`${styles['sectionText--primary']}`}> interfaces modernas</strong>, 
+                                <strong className={`${styles['sectionText--primary']}`}> responsivas, </strong> 
+                                e com <strong className={`${styles['sectionText--primary']}`}>
+                                boa experiência de usuário</strong>.</p>
+                        
+                            <p id="contact">Formado em <span className={`${styles['sectionText--primary']}`}>Análise e 
+                                Desenvolvimento de Sistemas</span></p>
+            
+                            <p>Experiência em
+                                <span className={`${styles['sectionText--primary']}`}> aplicações web</span>, 
+                                <span className={`${styles['sectionText--primary']}`}> código organizado</span>, 
+                                <span className={`${styles['sectionText--primary']}`}> performance</span> e 
+                                <span className={`${styles['sectionText--primary']}`}> fácil de manter</span>.</p>
+                        
+                            <p>🚀 Tecnologias principais:</p> 
+                            <p><span className={`${styles['sectionText--primary']}`}>React • JavaScript • TypeScript • HTML • CSS</span></p>
+                            
+                            <p>🛠️ Também utilizo:</p> 
+                            <p><span className={`${styles['sectionText--primary']}`}>Tailwind CSS • Bootstrap • MySQL • Git • GitHub</span></p>
                         </div>
                     </article>
-                </section>
+                </motion.section>
 
-                <div id="contact" className={`${styles.sectionList} container`}>
-                    <h2 className="text-light text-center mb-5">Vamos nos conectar!? <FontAwesomeIcon 
+                <div  className={`${styles.sectionList} container`}>
+                    <h2 className="text-light text-center mb-2">Vamos trabalhar juntos ? <FontAwesomeIcon 
                     className={styles.iconSecondary} icon={faArrowTurnDown} beat size='fa-xs'></FontAwesomeIcon></h2>
                         
                     <ul className="nav navbar mb-5">
                         <li><a onClick={emailClick} aria-label="enviar email para 
-                            CaiosribeiroJP" rel="noopener noreferrer"><FontAwesomeIcon 
+                            srCaio" rel="noopener noreferrer"><FontAwesomeIcon 
                             className={styles.iconPrimary} icon={faEnvelope} size='2xl' /></a></li>			
-                        <li><a href="https://github.com/srCaio" 
+                        <li><a href="https://github.com/srCaio96" 
                             target="_blank" aria-label="github"><FontAwesomeIcon className={styles.iconPrimary} 
                             icon={faSquareGithub} size='2xl' /></a></li>
                         <li><a href="http://www.linkedin.com/in/srCaio" 
@@ -70,7 +81,7 @@ export default function Footer() {
                          /></a></li>
                     </ul>
             
-                    <strong><p className={styles.textAccentSecondary}>© srCaio</p></strong>  
+                    <strong><p className={styles['sectionText--secondary']}>© srCaio</p></strong>  
                 </div>
            </footer>
     )

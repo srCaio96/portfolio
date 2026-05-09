@@ -6,12 +6,37 @@
   }
 }
 
+@keyframes moveToLeft {
+  from { 
+    transform: translateX(0); 
+  }
+  to   { 
+    transform: translateX(-100%); 
+  }
+}
+
+@keyframes moveToRight {
+	from {
+		transform: translate(-100%);
+	} to {
+		transform: translate(0);
+	}
+}
+
 @keyframes smoothOpacity {
   0% {
-    opacity: 0;
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .3;
   }
 
   100% {
     opacity: 1;
   }
+}
+
+@keyframes wheel {
+	50% {rotate: y 180deg;}
 }

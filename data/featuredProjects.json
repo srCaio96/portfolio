@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "Dog Media",
+        "url": "https://srcaio.com/featured-projects/dogmedia",        
+        "gitHub": "https://github.com/srCaio96/dogmedia",
+        "description": "Consulta de raças de cães via API com exibição dinâmica de dados.",
+        "highlight": ["Consumo de API (The Dog API)", "Exibição dinâmica de dados", "Suporte a tradução", "Interface responsiva"],
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "React"],
+        "img": "/images/image-dog-media.webp"
+    },
+    {
+        "id": "2",
+        "name": "Dashboard — Sistema Integrado",
+        "url": "https://srcaio.com/featured-projects/app-dashboard",
+        "gitHub": "https://github.com/srCaio96/app-dashboard",
+        "description": "Dashboard com integração entre front-end, back-end e banco de dados.",
+        "highlight": ["Visualização de dados", "Integração completa (PHP + MySQL)", "Estrutura de aplicação"],
+        "tools": ["HTML5", "CSS3", "Bootstrap", "jQuery", "PHP", "MySQL"],
+        "img": "/images/image-dashboard.webp"
+    },
+    {
+        "id": "3",
+        "name": "Mario Quest",
+        "url": "https://srcaio.com/featured-projects/marioquest",
+        "gitHub": "https://github.com/srCaio96/marioquest",
+        "description": "Plataforma web dedicada à franquia Mario com foco em jogos, curiosidades e glitches.",
+        "highlight": ["Organização de grande volume de conteúdo", "Estrutura dinâmica com JavaScript/jQuery", "Navegação entre seções"],
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery"],
+        "img": "/images/image-mario-quest.webp"
+    },
+    {
+        "id": 4,
+        "name": "Lista de Tarefas — CRUD Completo",
+        "url": "https://srcaio.com/featured-projects/app-lista-tarefas",
+        "gitHub": "https://github.com/srCaio96/app-lista-tarefas",
+        "description": "Aplicação completa para gerenciamento de tarefas.",
+        "highlight": ["CRUD com persistência em MySQL", "Integração front-end e back-end", "Organização de dados"],
+        "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "PHP", "MySQL"],
+        "img": "/images/image-lista-de-tarefas.webp"
+    }
+]

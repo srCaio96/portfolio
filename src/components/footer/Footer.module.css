@@ -3,12 +3,9 @@
 /* ============================= */
 
 .theme {
-	--font-primary: 'Bush Script MT', cursive;
-	--font-secondary: Arial, Helvetica, sans-serif;
-
-	--color-base: #ffffff;
-	--color-accent-primary: #87ceeb;
-	--color-accent-secondary: #000000;
+	--color-text-primary: #87ceeb;
+	--color-text-secondary: #000000;
+	
 	--color-icon-primary: #157cd6;
 	--color-icon-secondary: var(--color-base);
 
@@ -33,7 +30,6 @@
 .section {
 	position: relative;
 	overflow: hidden;
-	font-family: var(--font-primary);
 	min-height: 800px;
 	margin-left: 0;
 }
@@ -48,13 +44,13 @@
 	z-index: -1;
 }
 
-.imagePage img {
+.pageImg img {
     display: block;
     max-width: 100%;
     height: auto;
 	margin-top: 100px;
 	border: 3px solid transparent;
-	border-radius: 50%;
+	border-radius: var(--border-rounded); /* Global */
 	box-shadow: var(--box-shadow-base)	
 }
 
@@ -65,7 +61,7 @@
 
 .iconPrimary:hover{
 	cursor: pointer;
-	transform: var(--scale-base); /* Global */
+	transform: var(--scale-lg); /* Global */
 }
 
 .iconSecondary {
@@ -76,10 +72,12 @@
 /* CONTENT - TEXT / INFO */
 /* ============================= */
 
-.sectionContent {
+.sectionText {
+	font-family: var(--font-primary); /* Global */
+	letter-spacing: var(--font-space-base); /* Global */
 	position: relative;
 	margin-top: 110px;
-	color: var(--color-base);
+	color: var(--color-text-base); /* Global */
 	padding-right: 10%;
 }
 
@@ -89,12 +87,12 @@
 	width: 30%;
 }
 
-.textAccentPrimary {color: var(--color-accent-primary);}
+.sectionText--primary {color: var(--color-text-primary);}
 
-.textAccentSecondary {
+.sectionText--secondary {
 	position: relative;
 	font-family: var(--font-secondary);
-	color: var(--color-accent-secondary);
+	color: var(--color-text-secondary);
 	left: 20%;
 	bottom: 5px;
 }
@@ -104,14 +102,20 @@
 /* RESPONSIVE */
 /* ============================= */
 
-@media (max-width: 470px) {
-	.iconPrimary {
-		padding-bottom: 10px;
+@media (max-width: 620px) {
+	.sectionList {
+		width: 70%;
 	}
 }
 
 @media (max-width: 510px) {
 	.textAccentSecondary {
 		left: 0;
+	}
+}
+
+@media (max-width: 470px) {
+	.iconPrimary {
+		padding-bottom: 10px;
 	}
 }

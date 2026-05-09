@@ -6,31 +6,24 @@ export default function useDropdownToggle() {
     const containerRef = useRef(null);
 
     useEffect(() => {
-        if(!listRef.current) return;
-
-        if(open) {
-            listRef.current.style.maxHeight = listRef.current.scrollHeight + "px";
-        } else {
-            listRef.current.style.maxHeight = "0px";
-        };
-
-    }, [open]);
-
-    useEffect(() => {
-        function handleClickOutside(e) {
+        function onClickOutside(e) {
             if(containerRef.current && !containerRef.current.contains(e.target)) {
-                setOpen(false);
-            }
+                onClose();
+            };
         };
 
-        document.addEventListener('mousedown', handleClickOutside);
+        document.addEventListener('mousedown', onClickOutside);
 
-        return () => document.removeEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', onClickOutside);
     }, []);
 
-    function isOpen(bool) {
-        !open ? setOpen(bool) : setOpen(!bool)
+    function onOpen() {
+        setOpen(true);
+    };
+
+    function onClose() {
+        setOpen(false);
     };
     
-    return {open, isOpen, listRef, containerRef};
+    return {open, onOpen, onClose, listRef, containerRef};
 };

@@ -17,7 +17,7 @@ import oldPc04 from '../../assets/icons/devices/device-old-pc-04.webp';
 
 export default function DivisionDevices() {
     return (
-        <div className={`${styles.section} ${styles.theme}`}>
+        <div id="aboutMe" className={`${styles.section} ${styles.theme}`}>
             <div className={styles.sectionList}>
                 <img src={modernPc01} width="249px" height="180px" loading="lazy" alt="image-pc1" />
                 <img src={oldPc01} width="259px" height="180px" loading="lazy" alt="image-cel1" />

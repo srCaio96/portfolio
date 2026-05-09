@@ -3,14 +3,16 @@
 /* ============================= */
 
 .theme {
-	--color-base: #00ffff;
-	--color-icon-base: #FFD43B;
+    --color-text-primary: #FFD43B;
+    --color-text-secondary: #00ffff;
 
-	--font-primary: 'Dancing Script', cursive;
-	--font-secondary: 'Stardos Stencil', system-ui;
-	
 	--gradient-base: linear-gradient(to bottom right ,#4f10e2E6, #196fdf80);
 	--gradient-accent: linear-gradient(to left bottom, #d3e0e6, #157cd6);
+
+	--color-icon-base: #000000;
+	--icon-hover-base: var(--color-text-primary);
+
+	--box-shadow-accent: 3px 3px 7px var(--color-text-primary) inset;
 }
 
 /* ============================= */
@@ -21,12 +23,13 @@
 	width: 100%;
 	position: relative;
 	overflow: hidden;
-	font-family: var(--font-primary);
+	font-family: var(--font-base); /* Global */
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	align-content: center;
+	letter-spacing: var(--font-space-base); /* Global */
 }
 
 .section::before {
@@ -44,31 +47,125 @@
 /* CONTENT - TEXT / INFO */
 /* ============================= */
 
-.headingPage {
-	font-family: var(--font-secondary);
-	font-weight: 700;
-	font-size: 3.75rem;
-	line-height: 1.2;
-	color: var(--color-base);
-	background: var(--gradient-accent);
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
+.pageTitlePrimary {
+	font-size: var(--font-lg); /* Global */
+}
+
+.accentPrimary {
+  	color: var(--color-text-primary);
+}
+
+.accentSecondary {
+  	color: var(--color-text-secondary);
+}
+
+.reactText {
+	animation: var(--anim-name-wheel) var(--durantion-fast) var(--ease-linear) var(--anim-interation-infinite);
+}
+
+.pageImg img {
+	position: relative;
+    display: block;
+    max-width: 100%;
+    height: auto;
+	border: 3px solid transparent;
+	border-radius: var(--border-rounded); /* Global */
+	box-shadow: var(--box-shadow-base); /* Global */
+	z-index: -1;
+	
+}
+
+.pageImg div {
+	position: relative;
+	font-family: var(--font-secondary); /* Global */
+	bottom: 200px;
+	width: 80%;
+	border: 1px solid transparent;
+	border-radius: var(--border-rounded); /* Global */
+	opacity: 0;
+}
+
+.pageImg div:hover {
+	background-color: #000000;
+	opacity: .5;
+}
+
+/* ============================= */
+/* CONTROLS - INTERATIONS */
+/* ============================= */
+
+.buttonPrimary, .buttonSecondary {
+	position: relative;
+	font-family: var(--font-secondary); /* Global */
+	border: 1px solid transparent;
+	border-radius: 80px;
+	background-color: var(--color-button-base); /* Global */
+	color: var(--color-text-base); /* Global */
+	box-shadow: var(--box-shadow-accent);
+}
+
+.buttonPrimary {
+	animation: var(--anim-name-smooth-opacity) var(--duration-slow) var(--ease-smooth) 
+		var(--anim-interation-infinite);
+	transition: background-color var(--duration-fast) var(--ease-smooth), 
+				color var(--duration-fast) var(--ease-smooth),
+				transform var(--duration-fast) var(--ease-smooth),
+				outline var(--duration-fast) var(--ease-smooth); /* Global */
+}
+
+.buttonPrimary:hover {
+	background-color: var(--color-button-hover); /* Global */
+	color: var(--color-text-primary);
+	transform: var(----scale-md); /* Global */
+	outline: var(--color-button-base) solid 10px;
+}
+
+
+.buttonSecondary {
+	opacity: .6;
+	transition: outline var(--duration-fast) var(--ease-smooth),
+				opacity var(--duration-fast) var(--ease-smooth); /* Global */
+}
+
+.buttonSecondary:hover {
+	outline: var(--color-button-hover) solid 10px;
+	opacity: 1;
 }
 
 .icon {
-    min-height: 2rem;
-	margin-top: 100px;
-	margin-bottom: 10px;
-	display: inline-block;
 	color: var(--color-icon-base);
+	transition: all var(--duration-fast) var(--ease-smooth); /* Global */
+}
+
+.icon:hover {
+	color: var(--icon-hover-base);
+	cursor: pointer;
+	transform: var(--scale-lg); /* Global */
 }
 
 /* ============================= */
 /* RESPONSIVE */
 /* ============================= */
 
-@media only screen and (max-width: 400px) {
-  .headingPage {
-    font-size: 2.5rem;
-  }
+@media only screen and (max-width: 575px) {
+  .pageImg { 
+    width: 100% ; 
+  } 
 }
+
+@media only screen and (max-width:420px) {
+	.pageTitlePrimary {
+		font-size: var(--font-md);
+	}
+
+	.pageTitleSecondary {
+		font-size: .5rem;
+	}
+
+	.buttonPrimary, .buttonSecondary {
+		margin-right: 20%;
+		font-size: .7rem;
+		padding: 0;
+	}
+}
+

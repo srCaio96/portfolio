@@ -25,16 +25,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  animation: moveToLeft var(--anim-duration-base) var(--ease-linear) var(--anim-interation-infinite); /* Global */
-}
-
-@keyframes moveToLeft {
-  from { 
-    transform: translateX(0); 
-  }
-  to   { 
-    transform: translateX(-100%); 
-  }
+  animation: var(--anim-name-move-left) var(--anim-duration-base) var(--ease-linear) var(--anim-interation-infinite); /* Global */
 }
 
 .section img {

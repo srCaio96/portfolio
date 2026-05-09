@@ -7,7 +7,8 @@
 
 html, body{ 
   user-select: none; 
-  min-height: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
   background-color: var(--color-bg-default);
   inset: 0;
 	z-index: -1;
@@ -34,14 +35,12 @@ html, body{
 .tool-react {color: var(--color-text-react)}
 
 
-
-
 /* ============================= */
 /* RESPONSIVE */
 /* ============================= */
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 575px) {
   .col-6 { 
-    width: 100% !important; 
+    width: 100% ; 
   } 
 }

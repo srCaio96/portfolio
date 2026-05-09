@@ -3,10 +3,22 @@
 /* ============================= */
 
 :root {
-    --color-bg-base: #4f10e2E6;
+    --font-base: 'indie flower', cursive;
+    --font-primary: 'Bush Script MT', cursive;
+	--font-secondary: 'Stardos Stencil', system-ui;
+
+    --font-space-base: 0.2rem;
+
+    --font-sm: 1.25em;
+    --font-md: 1.875rem;
+    --font-lg: 3.438rem;
+
     --color-bg-default: #0000;
+
     --color-button-base: #157cd6;
     --color-button-hover: #7244dfB3;
+    
+    --color-text-base: #ffffff;
     --color-text-html: #ff4400;
     --color-text-css: #1167e9;
     --color-text-bs: #800080;
@@ -18,6 +30,8 @@
     --color-text-wp: #6cabff;
     --color-text-react: #0094ff;
 
+    --border-rounded: 50%;
+
     --duration-fast: .3s;
     --duration-base: .6s;
     --duration-slow: .9s;
@@ -26,12 +40,28 @@
     --ease-standard: ease;
     --ease-linear: linear;
 
-    --scale-base: scale(1.4);
+    --scale-sm: scale(1.02);
+    --scale-md: scale(1.1);
+    --scale-lg: scale(1.4);
 
     --anim-duration-fast: 10s;
     --anim-duration-base: 40s;
     --anim-duration-slow: 60s;
     --anim-interation-infinite: infinite;
     --anim-name-move-up: moveToUp;
+    --anim-name-move-left: moveToLeft;
+    --anim-name-move-right: moveToRight;
     --anim-name-smooth-opacity: smoothOpacity;
+    --anim-name-wheel: wheel;
+
+    --box-shadow-base: #157cd6 -1px 1px,
+						#1572d6 -2px 2px,
+						#1568d6 -3px 3px,
+						#155ed6 -4px 5px,
+						#1554d6 -6px 6px,
+						#1544d6 -7px 7px,
+						#154ed6 -8px 8px,
+						#1558d6 -9px 9px,
+						#1562d6 -10px 10px,
+						#156cd6 -11px 11px;
 }

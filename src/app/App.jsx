@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/header/Header';
 import Main from '../components/main/Main';
 import DivisionLanguages from '../components/divisionLanguages/DivisionLanguages';
-import Projects from '../components/projects/projects';
+import Projects from '../components/projects/Projects';
 import DivisionDevices from '../components/divisionDevices/DivisionDevices';
 import Footer from '../components/footer/Footer';
 

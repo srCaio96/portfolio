@@ -3,9 +3,11 @@
 /* ============================= */
 
 .theme {
-	--font-base: 'Bush Script MT', cursive;
+	--color-text-accent: #000000;
 
-	--color-base: #000000;
+	--color-border-light: #fff;
+	--color-border-dark: #000;
+	--border-base: 2px solid;
 
 	--gradient-base: linear-gradient(to right top, #4f10e2E6, #196fdf80);
 }
@@ -15,13 +17,15 @@
 /* ============================= */
 
 .nav {
-	font-family: var(--font-base);
+	font-family: var(--font-primary); /* Global */
+	color: var(--color-text-base); /* Global */
 	position: fixed;
-	padding-left: 25%;
 	border: 0;
-	font-size: 1.25rem;
+	font-size: var(--font-sm); /* Global */
 	cursor: pointer;
 	opacity: 80%;
+	transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+	max-height: 70px;
 }
 
 .nav::before {
@@ -39,43 +43,44 @@
 /* CONTENT - TEXT / INFO */
 /* ============================= */
 
-.headingPage {
+.pageTitle {
 	border: 0;
 	font-size: 1.875rem;
-	color: var(--color-base);
+	color: var(--color-text-accent);
 	position: relative;
-	margin-right: 50%;
 	text-decoration: none;
 }
 
-.headingPage:hover {
-	animation: wheel var(--duration-base) var(--anim-interation-infinite);
+
+.pageTitle:hover {
+	animation: var(--anim-name-wheel) var(--duration-base) var(--anim-interation-infinite); /* Global */
 }
 
-@keyframes wheel {
-	50% {rotate: y 180deg;}
-}
 
 /* ============================= */
 /* CONTROLS - INTERATIONS */
 /* ============================= */
 
-.navControls {
-	background-color: var(--color-button-base); /* Global */
+.activePrimary {
+  	border-bottom: var(--border-base) var(--color-border-light);
 }
 
-.navControls:hover {
-	background-color: var(--color-button-hover); /* Global */
+
+.activeSecondary {
+	border-bottom: var(--border-base) var(--color-border-dark);
 }
 
 /* ============================= */
 /* RESPONSIVE */
 /* ============================= */
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 575px) {
   .navActive {
     background-image: var(--gradient-base);
-    width: 100%;
-    height: 100%;
+	max-height: 120px;
+  }
+
+  .navDesactive {
+	display: none;
   }
 }
