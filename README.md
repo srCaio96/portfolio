@@ -1,12 +1,12 @@
-#💼 Portfolio — Caio Ribeiro
+# 💼 Portfolio — Caio Ribeiro
 
 Personal portfolio website created to showcase my projects, skills and development journey as a Front-end Developer.
 
-###🌐 Live Website: https://srcaio.com
+### 🌐 Live Website: https://srcaio.com
 
 ---
 
-##📌 About the Project
+## 📌 About the Project
 
 This project was created as my personal developer portfolio.
 
@@ -16,7 +16,7 @@ The portfolio is continuously updated as I develop new projects and improve my s
 
 ---
 
-##🛠️ Technologies
+## 🛠️ Technologies
 
 - HTML5
 - CSS3
@@ -27,7 +27,7 @@ The portfolio is continuously updated as I develop new projects and improve my s
 
 ---
 
-##✨ Features
+## ✨ Features
 
 - 📱 Responsive design
 - 🎨 Modern and clean interface
@@ -40,13 +40,13 @@ The portfolio is continuously updated as I develop new projects and improve my s
 
 ---
 
-##📂 Project Structure
+## 📂 Project Structure
 
 The project follows a component-based structure, separating reusable components, pages and other application resources to keep the code organized and maintainable.
 
 ---
 
-##🚀 Getting Started
+## 🚀 Getting Started
 
 Clone the repository:
 
@@ -62,23 +62,23 @@ npm run dev
 
 ---
 
-##🌐 Live Demo
+## 🌐 Live Demo
 
 🔗 https://srcaio.com
 
 ---
 
-##📫 Contact
+## 📫 Contact
 
 If you'd like to connect with me:
 
-###- 💼 LinkedIn: https://linkedin.com/in/srCaio
-###- 🐙 GitHub: https://github.com/srCaio96
-###- 🌐 Portfolio: https://srcaio.com
+### - 💼 LinkedIn: https://linkedin.com/in/srCaio
+### - 🐙 GitHub: https://github.com/srCaio96
+### - 🌐 Portfolio: https://srcaio.com
 
 ---
 
-##📜 License
+## 📜 License
 
 © 2026 Caio Ribeiro.
 
