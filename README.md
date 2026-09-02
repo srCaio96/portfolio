@@ -1,108 +1,85 @@
-# 💼 Portfolio — Caio Ribeiro
+💼 Portfolio — Caio Ribeiro
 
-🇺🇸 English | 🇧🇷 [Português](README-pt-BR.md)
+Personal portfolio website created to showcase my projects, skills and development journey as a Front-end Developer.
 
-Welcome to my portfolio!
-
-I'm **Caio Ribeiro**, a graduate in **Systems Analysis and Development**.  
-Here I present my **projects, studies, and evolution as a web developer**.
+🌐 Live Website: https://srcaio.com
 
 ---
 
-![HTML](https://img.shields.io/badge/HTML5-ff6d00?logo=html5&logoColor=ff0000) 
-![CSS](https://img.shields.io/badge/CSS3-009dff?logo=css&logoColor=0059ff) 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?logo=react)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap)
+📌 About the Project
+
+This project was created as my personal developer portfolio.
+
+The main goal is to present my projects, technical skills and professional information through a responsive and user-friendly interface.
+
+The portfolio is continuously updated as I develop new projects and improve my skills.
 
 ---
 
-## 👨‍💻 About Me
-
-I'm passionate about **technology and web development**.
-
-In my free time I continue improving my skills through **courses and practical projects**, always looking to stay updated with modern technologies.
-
----
-
-## 🛠️ Technologies
-
-### 🔹 Solid knowledge
-
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-- React
-- jQuery
-- MySQL
-
-### 🔹 Intermediate knowledge
-
-- AJAX
-- Excel (Microsoft Office)
-- English — Intermediate (B2)
-
-### 🔹 Basic knowledge
-
-- Python
-- PHP
-- Ionic
-- WordPress
-- Spanish — Basic (A2)
-
----
-
-## 🚀 Professional Goal
-
-I am seeking my **first opportunity in the IT field**, where I can apply my knowledge and continue growing professionally.
-
-My goal is to contribute with **creative and efficient solutions** in the technology area.
-
----
-
-## 🌐 Live Portfolio
-
-🔗 **Website:**  
-https://srcaio.com
-
----
-
-## 📄 Resume
-
-📥 [View Resume](docs/resume.pdf)
-
----
-
-## 📫 Contact
-
-📧 Email:  
-caiosribeiro@bol.com.br  
-
-🐙 GitHub:  
-https://github.com/srCaio96  
-
-💼 LinkedIn:  
-https://linkedin.com/in/srCaio  
-
----
-
-## 🧰 Portfolio Technologies
+🛠️ Technologies
 
 - HTML5
 - CSS3
-- Bootstrap
 - JavaScript
 - React
-
-💡 The portfolio was developed **responsively**, prioritizing **performance, clarity and user experience**.
+- Bootstrap
+- Vite
 
 ---
 
-## 📜 License
+✨ Features
 
-© 2026 **Caio Ribeiro**
+- 📱 Responsive design
+- 🎨 Modern and clean interface
+- 📂 Project showcase
+- 👨‍💻 About me section
+- 🛠️ Technologies and skills
+- 📄 Resume access
+- 📫 Contact information
+- 🔗 Links to GitHub and LinkedIn
 
-This portfolio was developed for **professional and presentation purposes**.
+---
 
-Feel free to be inspired, but please keep the credits to the author.
+📂 Project Structure
+
+The project follows a component-based structure, separating reusable components, pages and other application resources to keep the code organized and maintainable.
+
+---
+
+🚀 Getting Started
+
+Clone the repository:
+
+git clone https://github.com/srCaio96/portfolio.git
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+---
+
+🌐 Live Demo
+
+🔗 https://srcaio.com
+
+---
+
+📫 Contact
+
+If you'd like to connect with me:
+
+- 💼 LinkedIn: https://linkedin.com/in/srCaio
+- 🐙 GitHub: https://github.com/srCaio96
+- 🌐 Portfolio: https://srcaio.com
+
+---
+
+📜 License
+
+© 2026 Caio Ribeiro.
+
+This project was created for professional and educational purposes.
