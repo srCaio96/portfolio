@@ -11,13 +11,13 @@
     },
     {
         "id": "2",
-        "name": "Dashboard — Sistema Integrado",
-        "url": "https://srcaio.com/featured-projects/app-dashboard",
-        "gitHub": "https://github.com/srCaio96/app-dashboard",
-        "description": "Dashboard com integração entre front-end, back-end e banco de dados.",
-        "highlight": ["Visualização de dados", "Integração completa (PHP + MySQL)", "Estrutura de aplicação"],
-        "tools": ["HTML5", "CSS3", "Bootstrap", "jQuery", "PHP", "MySQL"],
-        "img": "/images/image-dashboard.webp"
+        "name": "Cadastro de Usuário — CRUD com React",
+        "url": "https://srcaio.com/others-projects/app-cadastro-usuario",
+        "gitHub": "https://github.com/srCaio96/app-cadastro-usuario",
+        "description": "Sistema de cadastro utilizando React e API simulada.",
+        "highlight": ["Integração com JSON Server", "Manipulação de dados", "Estrutura de aplicação React"],
+        "tools": ["HTML5", "CSS3", "React"],
+        "img": "/images/image-cadastro-de-usuario.webp"
     },
     {
         "id": "3",
