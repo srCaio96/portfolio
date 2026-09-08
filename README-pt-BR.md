@@ -1,102 +1,88 @@
 # 💼 Portfólio — Caio Ribeiro
 
-Bem-vindo ao meu portfólio!
+Site de portfólio pessoal criado para exibir meus projetos, habilidades e trajetória de desenvolvimento como Desenvolvedor Front-end.
 
-Sou **Caio Ribeiro**, formado em **Análise e Desenvolvimento de Sistemas**.
-
-Aqui apresento meus **projetos, estudos e evolução como desenvolvedor web**.
+### 🌐 Live Website: https://srcaio.com
 
 ---
 
-![HTML](https://img.shields.io/badge/HTML5-ff6d00?logo=html5&logoColor=ff0000) 
-![CSS](https://img.shields.io/badge/CSS3-009dff?logo=css&logoColor=0059ff) 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?logo=react)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap)
+## 📌 Sobre o Projeto
 
----
+Este projeto foi criado como meu portfólio pessoal de desenvolvedor.
 
-## 👨‍💻 Sobre Mim
+O objetivo principal é apresentar meus projetos, habilidades técnicas e informações profissionais por meio de uma interface responsiva e intuitiva.
 
-Sou apaixonado por **tecnologia e desenvolvimento web**.
-
-No meu tempo livre, continuo aprimorando minhas habilidades por meio de **cursos e projetos práticos**, sempre buscando me manter atualizado com as tecnologias modernas.
+O portfólio é atualizado continuamente à medida que desenvolvo novos projetos e aprimoro minhas habilidades.
 
 ---
 
 ## 🛠️ Tecnologias
 
-### 🔹 Conhecimento sólido
-
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
-- Bootstrap
 - React
-- jQuery
-- MySQL
-
-### 🔹 Conhecimento intermediário
-
-- AJAX
-- Excel (Microsoft Office)
-- Inglês — Nível intermediário (B2)
-
-### 🔹 Conhecimento básico
-
-- Python
-- PHP
-- Ionic
-- WordPress
-- Espanhol — Nível básico (A2)
+- Bootstrap
+- Vite
 
 ---
 
-## 🚀 Objetivo profissional
+## ✨ Funcionalidades
 
-Busco minha **primeira oportunidade na área de TI**, onde possa aplicar meus conhecimentos e continuar crescendo profissionalmente.
-
-Meu objetivo é contribuir com **soluções criativas e eficientes** na área de tecnologia.
-
----
-
-## 🌐 Portfólio ao Vivo
-
-🔗 **Website:**
-https://srcaio.com
+- 📱 Design responsivo
+- 🎨 Interface moderna e limpa
+- 📂 Vitrine de projetos
+- 👨‍💻 Seção "Sobre mim"
+- 🛠️ Tecnologias e habilidades
+- 📄 Acesso ao currículo
+- 📫 Informações de contato
+- 🔗 Links para GitHub e LinkedIn
 
 ---
 
-## 📄 Currículo
+## 📂 Estrutura do Projeto
 
-📥 [Ver Currículo](docs/resume.pdf)
+O projeto segue uma estrutura baseada em componentes, separando componentes reutilizáveis, páginas e outros recursos da aplicação para manter o código organizado e de fácil manutenção.
+
+---
+
+## 🚀 Primeiros Passos
+
+Clone o repositório:
+
+git clone https://github.com/srCaio96/portfolio.git
+
+Instale as dependências:
+
+npm install
+
+Inicie o servidor de desenvolvimento:
+
+npm run dev
+
+---
+
+## 🌐 Demonstração Online
+
+🔗 https://srcaio.com
 
 ---
 
 ## 📫 Contato
 
-📧 E-mail: caiosribeiro@bol.com.br
+Se quiser entrar em contato comigo:
 
-🐙 GitHub:
-https://github.com/srCaio96
-
-💼 LinkedIn:
-https://linkedin.com/in/srCaio
+### - 💼 LinkedIn: https://linkedin.com/in/srCaio
+### - 🐙 GitHub: https://github.com/srCaio96
+### - 🌐 Portfólio: https://srcaio.com
 
 ---
 
-## 🧰 Tecnologias do Portfólio
+## 📜 Licença
 
-- HTML5
-- CSS3
-- Bootstrap
-- JavaScript
-- React
+© 2026 Caio Ribeiro.
 
-💡 O portfólio foi desenvolvido **responsivamente**, priorizando **desempenho, clareza e experiência do usuário**.
-
----
-
+Este projeto foi criado para fins profissionais e educacionais.
 ## 📜 Licença
 
 © 2026 **Caio Ribeiro**
